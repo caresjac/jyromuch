@@ -1,0 +1,163 @@
+
+.adverts {
+  width: 60%;
+  height: 500px;
+  box-shadow: 1px 5px 10px grey;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.ad {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adverts img {
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.adverts1 {
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 20px;
+  height: 240px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px 5px 10px grey;
+}
+
+.adverts1:hover .rext {
+  transform: translateY(0);
+}
+.adverts2:hover .rext {
+  transform: translateY(0);
+}
+.adverts1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.adverts1:hover img {
+  transform: scale(1.25);
+}
+.adverts2 {
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 20px;
+  height: 240px;
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px 5px 10px grey;
+}
+
+.adverts2:hover img {
+  transform: scale(1.25);
+}
+
+.adverts2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.ad section {
+  width: 30%;
+  margin-left: 10px;
+  display: grid;
+}
+
+.rext {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0.4rem;
+  transform: translateY(100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, -5), black);
+  color: white;
+  transition: 0.5s ease;
+}
+
+.rext h4 {
+  text-align: center;
+  font-size: 27px;
+}
+.carousel-items {
+  width: 100%;
+  position: relative;
+  transition: 0.5s ease;
+}
+
+.carousel-items img {
+  width: 100%;
+}
+.carousel-items:hover img {
+  transform: scale(1.1);
+}
+
+.are {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, -1), black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0.4rem;
+  transform: translateY(100%);
+  color: white;
+  transition: 0.5s ease;
+}
+
+.carousel-items:hover .are {
+  transform: translateY(0);
+}
+
+.are h4 {
+  text-align: center;
+  font-size: 36px;
+  bottom: 0;
+  font-size: 65px;
+}
+
+@media (max-width: 400px) {
+  .rext h4 {
+    font-size: 20px;
+  }
+  .are h4 {
+    font-size: 25px;
+  }
+  #fds {
+    color: #0355cc;
+    font-size: 18px;
+  }
+}
+
+
+
+@media  (max-width: 600px) {
+  
+  
+}
